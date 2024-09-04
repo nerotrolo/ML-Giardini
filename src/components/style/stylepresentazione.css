@@ -1,0 +1,35 @@
+.presentazione{
+    background-color: #212a08;
+    position: relative;
+    padding: 20px;
+}
+
+.sonoML{
+    font-style:normal ;
+    width: 100%;
+    font-weight: 300;
+
+}
+
+.servML{
+    color: aliceblue;
+    text-align: center;
+}
+
+.freccia{
+    transform: rotate(90deg);
+}
+
+@media (max-width: 576px) { 
+
+ }
+
+ @media (max-width: 1024px) { 
+
+}
+
+@media (min-width: 993px) { 
+    .titML{
+        margin: 1rem;
+    }
+ }

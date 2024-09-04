@@ -1,0 +1,52 @@
+.contacts{
+    background-color: #1b2207;
+    max-width: 100%;
+    color:aliceblue;
+    font-family: "Jost", sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rowcontacts{
+    width: 100%;
+}
+
+.form-control{
+    padding-left: 10px;
+}
+
+h1{
+    margin-bottom: 3%;
+}
+
+.btn{
+    color: #303d0c;
+    background-color: #ffffff;
+    width: 100px;
+    font-size:larger;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) { 
+    .contattaci{
+        font-size: 24px;
+        text-align: center;
+
+        margin-bottom:35px;
+    }
+    .xsMod{
+        display: none;
+    }
+    .rowcontacts{
+        margin-top: -15px;
+    }
+}
+
+#nome, #cognome, #msg, #email, #tel, #comune, #citta{
+    background-color: #27320a;
+    border: none;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: rgb(255, 255, 255) !important;
+}

@@ -1,0 +1,74 @@
+.centra{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ContactsDir{
+    background-color: #1B2207;
+    padding-bottom: 50px;
+}
+
+.icons-contacts{
+    width: 100px;
+    filter: invert(1);
+    position: relative;
+}
+
+.carta-icons{
+    height: 120px;
+    width: 100%;
+    /* border: solid 1px red; */
+}
+
+.contattaci{
+    margin-top: auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.descr-icona-cont{
+    /* border: solid 1px yellow; */
+    font-weight: 400;
+    width: 100%;
+    position:relative;
+    text-align: center;
+    right: 40%;
+    top: 40%;
+}
+
+.meno{
+    width: 100%;
+}
+
+@media (max-width: 576px) { 
+    .icons-contacts{
+        width: 70px;  
+    }
+    .descr-icona-cont{
+        right: 30%;
+        width: 300px;
+    }
+    .meno{
+        width: 90%;
+    }
+    .icons-contacts{
+        width: 60px;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .descr-icona-cont{
+        /* border: solid 1px yellow; */
+        width: 160%;
+        position: relative;
+    }
+    .icons-contacts{
+        width: 60px;
+    }
+}
+
+@media (min-width: 993px) { 
+    
+ }
